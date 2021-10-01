@@ -157,3 +157,29 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: borderswift-top;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: alternate;
+}
+
+@keyframes borderswift-top{
+    0% {left: 10%;}
+    50% {left: 65%;}
+    100% {left: 10%;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation-name: borderswift-bottom;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: alternate;
+}
+
+@keyframes borderswift-bottom{
+    0% {right: 20%;}
+    50% {right: 69%;}
+    100% {right: 20%;}
+}
