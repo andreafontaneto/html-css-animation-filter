@@ -114,6 +114,20 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation-name: rotazione2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes rotazione2{
+    0% {transform: rotate(0deg);}
+    75% {transform: rotate(300deg);}
+    100% {transform: rotate(0deg);}
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
